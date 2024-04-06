@@ -25,10 +25,11 @@
 
         main{
             min-width: 400pz;
-            max-width: 800px;
+            max-width: 1100px;
             background-color: var(--cor0);
-            border-radius: 5px;
+            border-radius: 2px;
             margin: auto;
+            padding: 10px;
         }
 
         *{
@@ -46,10 +47,6 @@
             padding: 15px;
         }
 
-        main h1{
-            color: var(--cor3);
-        }
-
         nav a{
             color: var(--cor0);
             font-size: 18px;
@@ -61,6 +58,45 @@
 
         nav a:hover{
             background-color: var(--cor1);
+        }
+
+        article p{
+            text-align: left;
+            color: #09011b;
+            text-shadow: none;
+        }
+
+        article h1{
+            text-align: center;
+            color: var(--cor3);
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+            padding: 20px;
+            margin: 0px;
+            font-size: 30px;
+        }
+
+        article h2{
+            text-align: left;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+            padding: 7px;
+            margin: 0px;
+            background-color: var(--cor1);
+            border-radius: 7px;
+            background-image:  linear-gradient(to left, var(--cor0), transparent);
+        }
+
+        article a{
+            color: #250766;
+            text-shadow: none; 
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        article b{
+            color: #250766;
+            text-shadow: none;
+            font-weight: bold;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -81,7 +117,21 @@
 
     <center>
         <main>
-            <h1>História do Mascote da Andrid</h1>
+            <article id="noticias">
+                <h1>História do Mascote da Andrid</h1>
+                <p>Provavelmente você sabe que o sistema operacional <b>Android</b>, mantido pelo <b>Google</b> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p><br><br>
+
+                <h2>- Primeira Versão</h2><br>
+                <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://danmorrill.org/" target="_blank">Dan Morrill</a>. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p><br>
+
+                <picture>
+                    <source media="(max-width: 670px)" srcset="img/androids.png" type="image/png">
+                    <img src="img/androids.png" alt="Primeira versão os Dandroids">
+                </picture>
+                <br>
+
+                <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <b>Dandroids</b>.</p>
+            </article>
         </main>
     </center>
     
