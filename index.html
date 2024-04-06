@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini-PI - Notícias de Tecnologia</title>
     <link rel="shortcut icon" href="img/icone.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <style>
         :root{
@@ -43,7 +44,7 @@
             background-color: var(--cor3);
             color: var(--cor0);
             text-align: center;
-            background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+            background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
 	        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
             padding: 15px;
         }
@@ -103,7 +104,7 @@
         .boxvideo{
             padding-top: 20px;
             padding-bottom: 20px;
-            background-color: var(--cor3);
+            background-color: var(--cor2);
             margin: 0px;
             position: relative;
             height: 450px;
@@ -119,8 +120,8 @@
         }
 
         aside h3{
-            color: white;
-            background-color: var(--cor3);
+            color: #4CC3CC;
+            background-color: var(--cor2);
             border-radius: 5px 5px 0px 0px;
             padding: 7px;
             text-align: left;
@@ -135,21 +136,31 @@
             border-radius: 0px 0px 5px 5px;
         }
 
-        footer{
-            padding: 30px;
-            background-color: var(--cor3);
-        }
-
-        footer p{
+        .rodape{
+            padding: 15px;
+            background-color: var(--cor4);
             text-align: center;
-            text-shadow: none;
         }
 
-        footer a{
-            color: white;
-            font-weight: bold;
+        .rodape a, p{
             text-decoration: none;
             text-shadow: none;
+            color: #4CC3CC;
+        }
+
+        .rodape a{
+            font-weight: bold;
+        }
+
+        .infrodape{
+            padding: 15px;
+            background-color: var(--cor3);
+            text-align: left;
+        }
+
+        .infrodape a i{
+            padding: 10px;
+            color: #4CC3CC;
         }
 
         .pequena{
@@ -259,7 +270,18 @@
     </center>
     
     <footer id="contato">
-        <p>© 2024 Criado por <a href="https://github.com/luis-pedro-dutra-carrocini" target="_blank"> Luís Pedro Dutra Carrocini</a></p>
+        <div class="infrodape">
+              <p style="color: #4CC3DD;">
+                Esse site foi criado com o intuito de praticar as habilidades adiquidas na disciplina de Desenvolvimento Web I, é um projeto desenvolvido com o auxilio de um curso oferecido pelo Gustavo Guanabara, sendo ele desenvolvido durante o 1° Semestre do curso de Desenvolvimento de Software Multiplataforma na Faculdade de Tecnologia de Franca Dr Thomaz Novelino em 2024.
+              </p>
+              <a href="https://www.linkedin.com/in/lu%C3%ADs-pedro-1652ba299?" target="_blank" title="Linkedin"><i class="fab fa-linkedin fa-3x"></i></a></li>
+                <a href="https://github.com/luis-pedro-dutra-carrocini" target="_blank" title="GitHub"><i class="fab fa-github fa-3x"></i></a>
+                <a href="https://wa.me/5516981150536" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp fa-3x"></i></a>
+                </a>
+        </div>
+        <div class="rodape">
+            <p>© 2024 Criado por <a href="https://github.com/luis-pedro-dutra-carrocini" target="_blank"> Luís Pedro Dutra Carrocini</a></p>
+        </div>
     </footer>
 </body>
 </html>
