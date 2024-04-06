@@ -29,7 +29,7 @@
             background-color: var(--cor0);
             border-radius: 2px;
             margin: auto;
-            padding: 10px;
+            padding: 15px;
         }
 
         *{
@@ -98,6 +98,58 @@
             font-weight: bold;
             text-decoration: none;
         }
+
+        .boxvideo{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: var(--cor3);
+            margin: 0px;
+            position: relative;
+            height: 450px;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .boxvideo iframe{
+            width: 90%;
+            height: 100%;
+        }
+
+        aside h3{
+            color: white;
+            background-color: var(--cor3);
+            border-radius: 5px 5px 0px 0px;
+            padding: 7px;
+            text-align: left;
+            margin: -10px -10px 20px -10px;
+        }
+
+        aside{
+            background-color: #ad95e6;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.400);	
+            padding: 10px;	
+            margin-top: 20px;
+            border-radius: 0px 0px 5px 5px;
+        }
+
+        footer{
+            padding: 30px;
+            background-color: var(--cor3);
+        }
+
+        footer p{
+            text-align: center;
+            text-shadow: none;
+        }
+
+        footer a{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            text-shadow: none;
+        }
     </style>
 </head>
 
@@ -130,10 +182,47 @@
                 </picture>
                 <br>
 
-                <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <b>Dandroids</b>.</p>
+                <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <b>Dandroids</b>.</p><br><br>
+
+                <h2>- Novo mascote</h2><br>
+                <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/" target="_blank">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p><br>
+
+                <picture>
+                    <source media="(max-width: 670px)" srcset="img/irinablok.png" type="image/png">
+                    <img src="img/irinablok.png" alt="Criadora do mascote"">
+                </picture>
+                <p>~ Ciradora do novo mascote.</p><br>
+
+                <p>Ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <b>Bugdroid</b>, o novo mascote do Android.</p><br>
+
+                <picture>
+                    <source media="(max-width: 670px)" srcset="img/irinablok.png" type="image/png">
+                    <img src="img/irinablok.png" alt="Última Versão do Mascote"">
+                </picture><br>
+
+                <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p><br>
+
+                <div class="boxvideo">
+                    <iframe src="https://www.youtube.com/embed/l2UDgpLz20M" title="TouTube vídeo player" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+                <br><br>
+
+                <aside>
+                    <h3>Quer saber mais?</h3>
+                    <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p><br>
+
+                    <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p><br>
+                    <p>Acesse aqui o site <a href="https://www.android.com/intl/en_uk/history/" target="_blank">Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+                </aside><br>
+
+                <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.</p>
             </article>
         </main>
+        <br>
     </center>
     
+    <footer id="faleconosco">
+        <p>Site criado por <a href="" target="_blank">© Luís Pedro Dutra Carrocini</a> afim de treinar para o PI</p>
+    </footer>
 </body>
 </html>
